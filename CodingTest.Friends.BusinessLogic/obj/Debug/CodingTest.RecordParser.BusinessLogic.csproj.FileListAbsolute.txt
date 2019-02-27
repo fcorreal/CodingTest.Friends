@@ -1,0 +1,11 @@
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\CodingTest.RecordParser.BusinessLogic.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\CodingTest.RecordParser.BusinessLogic.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\CodingTest.RecordParser.Data.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\CodingTest.RecordParser.Data.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\obj\Debug\CodingTest.RecordParser.BusinessLogic.csprojAssemblyReference.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\obj\Debug\CodingTest.RecordParser.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\obj\Debug\CodingTest.RecordParser.BusinessLogic.csproj.CopyComplete
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\obj\Debug\CodingTest.RecordParser.BusinessLogic.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\obj\Debug\CodingTest.RecordParser.BusinessLogic.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\CodingTest.RecordParser.Data.dll.config
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.BusinessLogic\bin\Debug\EntityFramework.xml

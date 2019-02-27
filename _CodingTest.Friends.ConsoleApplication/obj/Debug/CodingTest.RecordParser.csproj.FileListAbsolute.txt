@@ -1,0 +1,7 @@
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\bin\Debug\CodingTest.RecordParser.exe.config
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\bin\Debug\CodingTest.RecordParser.exe
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\bin\Debug\CodingTest.RecordParser.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\obj\Debug\CodingTest.RecordParser.csprojAssemblyReference.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\obj\Debug\CodingTest.RecordParser.csproj.CoreCompileInputs.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\obj\Debug\CodingTest.RecordParser.exe
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser\obj\Debug\CodingTest.RecordParser.pdb

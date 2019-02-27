@@ -1,0 +1,12 @@
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\CodingTest.RecordParser.Data.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\CodingTest.RecordParser.Data.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\obj\Debug\CodingTest.RecordParser.Data.csprojAssemblyReference.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\obj\Debug\CodingTest.RecordParser.Data.csproj.CoreCompileInputs.cache
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\obj\Debug\CodingTest.RecordParser.Data.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\obj\Debug\CodingTest.RecordParser.Data.pdb
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\CodingTest.RecordParser.Data.dll.config
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\EntityFramework.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\EntityFramework.xml
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\D\SourceTree\C#\Web Services\CodingTest.RecordParser\CodingTest.RecordParser.Data\obj\Debug\CodingTest.RecordParser.Data.csproj.CopyComplete
