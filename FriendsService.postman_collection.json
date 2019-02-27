@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "d6ad3a34-4c97-4f40-a8b2-242a916c342a",
+		"name": "FriendsService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ServiceAccount",
+			"item": [
+				{
+					"name": "GetToken",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"postman.setEnvironmentVariable(\"oauthToken\", jsonData.access_token);"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userName",
+									"value": "{{userName}}",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/token",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Email",
+									"value": "{{newEmail}}",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "{{newPassword}}",
+									"type": "text"
+								},
+								{
+									"key": "ConfirmPassword",
+									"value": "{{newPassword}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/api/Account/Register",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"Account",
+								"Register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Friends",
+			"item": [
+				{
+					"name": "AddFriend",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{oauthToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"friendRawRecord\" : \"Correal | Francisco | Male | Green | 1/4/89\"\n}"
+						},
+						"url": {
+							"raw": "{{host}}/api/friends",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"friends"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Friends Ordered By Gender Then Last Name",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{oauthToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/api/friends/records/gender",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"friends",
+								"records",
+								"gender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Friends Ordered By DOB",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{oauthToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/api/friends/reports/DOB",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"friends",
+								"reports",
+								"DOB"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Friends Ordered By Last Name",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{oauthToken}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/api/friends/reports/LastName",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"friends",
+								"reports",
+								"LastName"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

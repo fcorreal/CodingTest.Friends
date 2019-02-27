@@ -81,41 +81,5 @@ namespace CodingTest.Friends.BusinessLogic.ControllerLogic
         {
             return GetAllFriends().OrderByDescending(x => x.lastName).ToArray();
         }
-
-        private T[] OrderBy<T>(bool ascending, IEnumerable<T> toSort, Func<T, IComparable> sortProp)
-        {
-            List<Func<T, IComparable>> sortProps = new List<Func<T, IComparable>>()
-            {
-                sortProp,
-            };
-
-            return OrderBy<T>(ascending, toSort, sortProps);
-        }
-
-        private T[] OrderBy<T>(bool ascending, IEnumerable<T> toSort, List<Func<T, IComparable>> sortProps)
-        {
-            IOrderedEnumerable<T> result = null;
-
-            foreach (Func<T, IComparable> sortProp in sortProps)
-            {
-                if (result == null)
-                {
-                    if (ascending)
-                        result = toSort.OrderBy(x => sortProp(x));
-                    else
-                        result = toSort.OrderByDescending(x => sortProp(x));
-                }
-
-                else
-                {
-                    if (ascending)
-                        result.ThenBy(x => sortProp(x));
-                    else
-                        result.ThenByDescending(x => sortProp(x));
-                }
-            }
-
-            return result.ToArray();
-        }
     }
 }
